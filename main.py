@@ -24,7 +24,6 @@ def get_wp_updates(url, login, password):
         'remember':'yes',
     })
 
-#    post_request = session.get('http://poltorakota.ru/wp-admin/update-core.php')
     post_request = session.get(plugins_url)
     
     #print(post_request.text)
